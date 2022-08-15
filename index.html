@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Residencial Palmares</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--<link rel="stylesheet" href="assets/css/cookies.css">  -->  
+  <link rel="stylesheet" href="assets/css/cookies2.css">
+  <link href="dist/lity.css" rel="stylesheet">
+  <script src="vendor/jquery.js"></script>
+  <script src="dist/lity.js"></script>
+</head>
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#"><img src="assets/img/logo3.png"></a>
+      </h1>
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#intro">CondoPro</a></li>
+          <li><a href="#gallery">Galeria</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>bem vindo</h2>
+        <p>Estamos implantando novas ferramentas para melhorar a nossa comunicação.
+        </p>
+        <p>Pedimos que atualize seu cadastro para ter acesso ao App CondoPro.</p>
+
+        <div class="btn-play-container">
+          <a class="btn-play" href="https://www.youtube.com/embed/LxjTWlNni7U??enablejsapi=1" data-lity="">
+              <img width="65" height="65" src="assets/img/yt.png" alt="->"> 
+          </a>Como se cadastrar
+        </div>
+      </div>      
+
+      <div class="wrap-login100"> 
+        <h6>Restrito</h6>
+          <form class="login100-form" action="https://webware.com.br/bin/login.asp" method="post" target="_blank">
+            <input type="hidden" name="urlErro" value="https://www.webware.com.br/bin/administradora/default.asp?adm=57353419&amp;msg=ERRO">
+            <input type="hidden" name="a" value="57353419">
+            <div class="wrap-input100">
+              <input name="mem" type="text" class="input100" id="mem" placeholder="Usuário"> 
+            </div> 
+            
+            <div class="wrap-input100 ">
+              <input name="pass" type="password" class="input100" id="pass" placeholder="Senha"> 
+            </div>
+            <input type="submit" value="Acessar" class="botaologin"><br>
+
+            
+            <a class="formlogintext" href="https://www.webware.com.br/bin/administradora/lembrarsenha.asp?adm=57353419">Esqueci Minha Senha</a><br>
+            <a class="formlogintext"href="https://www.webware.com.br/bin/administradora/cadastro.asp?adm=57353419">Cadastre-Se</a>
+            <hr>
+            <br><p>Atendimento Expresso</p>
+            <a class="formlogintext" href="https://atendimentoexpresso-s6.webware.com.br/bin/administradora/wmacessoexpresso.asp?adm=57353419">2° via do boleto</a>
+          </form>
+      </div> 
+    </div>  
+  </section>
+  <section id="intro" class="white-bg section org_grid2">
+      <div class="org_texto">
+        <h2>Condopro</h2>
+        <div class="intro-img">    
+          <img src="assets/img/story-app.png" alt="condopro" style="max-width: 100%;">
+        </div>           
+        <p>Acesso aos serviços online de forma fácil e simplificada, para que a vida Condominial tenha mais comodidade.
+          <br>
+          O aplicativo do CondoPro já está disponível para baixars em todas as plataformas.
+        </p>
+      
+      </div>
+      <div class="org_sidebar">
+        <div class="sidebar">
+          <h6>Boletos</h6>
+          <p>Solicite e acompanhe a 2º via dos boletos.</p>
+        </div>
+
+        <div class="sidebar">
+          <h6>Mensagens</h6>
+          <p>Envie mensagens, solicitações de forma prática e rápida .</p>
+        </div>
+
+        <div class="sidebar">
+          <h6>Notícias</h6>
+          <p>Fique por dentro de tudo o que acontece no condomínio.</p>
+        </div>
+      </div>
+  </section>
+
+  <section id="gallery" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Galeria</h2>
+      <p class="grid-description">Diversos espaços para entretenimento e bem estar.
+      </p>
+
+      <div class="grid">
+        <div class="gallery-img">
+          <a href="assets/img/blocos.jpg" data-lity data-lity-desc="blocos"><img src="assets/img/show01.jpg" alt="" /></a>
+        </div>
+        <div class="gallery-img">
+          <a href="assets/img/show02.jpg" data-lity data-lity-desc="portaria"><img src="assets/img/show02.jpg" alt="" /></a>
+        </div>
+        <div class="gallery-img">
+          <a href="assets/img/ginasticaa.jpg" data-lity data-lity-desc="ginaa"><img src="assets/img/show03.jpg" alt="" /></a>
+        </div>
+        <div class="gallery-img">
+          <a href="assets/img/parquea007.jpg" data-lity data-lity-desc="parquinho"><img src="assets/img/show04.jpg" alt="" /></a>
+        </div>
+        <div class="gallery-img">
+          <a href="assets/img/ginasio003.jpg" data-lity data-lity-desc="ginasio"><img src="assets/img/show05.jpg" alt="" /></a>
+        </div>
+        <div class="gallery-img">
+          <a href="assets/img/ginasticab006.jpg" data-lity data-lity-desc="ginab"><img src="assets/img/show06.jpg" alt="" /></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="localizacao" class="white-bg section">
+
+    <div class="main-content top3">
+      <div class="top3-content">
+        <h2>Localização</h2>
+        <p>R: Giuseppe Tartini, 15 - Jd. São Bernardo - São Paulo - SP <br> CEP 04844-300</p>
+        <p>Horário de funcionamento da Administração: <br> Segunda à Sexta: 08:00 às 18:00 e <br> Sábado: 08:00 às 12:00</p>
+      </div>
+      
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9299192461544!2d-46.70098538447214!3d-23.749878374467237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f3adb11eb57%3A0x195ae2b7a7dfffd2!2sR.%20Giusepe%20Tartini%2C%2015%20-%20Jardim%20dos%20Manacas%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004844-300!5e0!3m2!1spt-BR!2sbr!4v1639592182457!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>  
+       
+    </div>
+ 
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Contato</h2>
+        <p>Dúvidas, críticas ou sugestões, mande uma mensagem.</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/contato.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+      <div class="contact-form">
+        <form action="./php/form3.php" method="post">
+          <fieldset class="form-grid">
+            <legend>Preencha o formulário</legend>
+            
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" name="name" id="name" placeholder="digite o nome">
+            </div>
+
+            <div class="form-group">
+              <label for="email">e-mail</label>
+              <input type="text" name="email" id="email" placeholder="digite o -mail">
+            </div>
+
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input type="text" name="subject" id="subject" placeholder="digite o assunto">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="Mensagem">Mensagem</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="digite a mensagem"></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit">enviar</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>  
+    </div>
+  </section>
+ 
+  <footer id="footer" class="footer white-bg">
+    
+    <p class="text-center">Condomínio Residencial Palmares &copy; 
+      <script>
+          var CurrentYear = new Date().getFullYear()
+          document.write(CurrentYear)
+      </script>
+      <br>Rua Giuseppe Tartini, 15 - São Paulo - SP | CEP 04844-300
+      <br> Tel. (11) 5923-4086 / 5971-4086 | e-mail: chpresidencialpalmares@uol.com.br 
+      <br>Horário Administração: 2º a 6º feira 08:00 às 18:00 | Sábado 08:00 - 12:00  
+    </p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+  
+<!--<script type="text/javascript" src="assets/js/cookies2.js"></script> -->  
+
+<script type="text/javascript" src="assets/js/scroll.js"></script>
+
+  <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+  <script type="text/javascript">
+    $(document).on('lity:ready', function (event, instance) {
+        var iframe = $(".lity-iframe-container").find("iframe");
+        iframe.prop("id", "lity-youtube-player");
+        var player = new YT.Player("lity-youtube-player", {
+            events: {
+                'onReady': function (e) {
+                    e.target.playVideo();
+                },
+                'onStateChange': function (e) {
+                    if (e.data == YT.PlayerState.ENDED) {
+                        instance.close();
+                    }
+                }
+            }
+        });
+    });
+  </script>
+
+
+</body>
+</html>

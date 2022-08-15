@@ -1,0 +1,34 @@
+<section id="intro" class="white-bg section">
+   <div class="gridcontainer modo1 main-content intro-content2">
+      <div class="intro-text-content"><h2>Condopro</h2>
+        <p>Acesso aos serviços online de forma fácil e simplificada, para que a vida Condominial tenha mais comodidade.
+          <br>
+          O aplicativo do CondoPro já está disponível para baixar em todas as plataformas.
+        </p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/story-app.png" alt="condopro">
+      </div>
+
+    </div>      
+    <div class="gridcontainer modo2 main-content intro-content2">
+      <div class="red">
+        <article>
+          <h3>Boletos</h3>
+          <p>Solicite e acompanhe a 2º via dos boletos.</p>
+        </article>
+      </div>
+      <div class="blue">
+        <article>
+          <h3>Mensagens</h3>
+          <p>Envie mensagens, solicitações de forma prática e rápida .</p>
+        </article>
+      </div>
+      <div class="white">
+        <article>
+          <h3>Notícias</h3>
+          <p>Fique por dentro de tudo o que acontece no condomínio.</p>
+        </article>
+      </div>
+    </div>
+</section>

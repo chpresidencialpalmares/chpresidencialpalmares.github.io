@@ -1,0 +1,54 @@
+.org_grid1{
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  max-width: 120rem;
+  margin: 0 auto;
+  grid-gap: 20 px
+}
+
+.org_grid1 > div:nth-child(n+3){
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
+}
+
+.org_grid1 > div.org_texto{
+  grid-column: 1;
+  grid-row: 1 / 2;
+  border: rgb(95, 62, 62);
+}
+.org_img{
+  grid-column: 2;
+  grid-row: 1 / 2;
+  border: rgb(33, 117, 71);
+}
+
+  <section id="intro" class="org_grid1">
+      <div class="org_texto"><h2>Condopro</h2>
+        <p>Acesso aos serviços online de forma fácil e simplificada, para que a vida Condominial tenha mais comodidade.
+          <br>
+          O aplicativo do CondoPro já está disponível para baixar em todas as plataformas.
+        </p>
+         
+      </div>
+      <div class="org_img">    
+        <img src="assets/img/story-app.png" alt="condopro" style="max-width: 500px;">
+      </div>
+      <div class="">
+        <h3>Boletos</h3>
+        <p>Solicite e acompanhe a 2º via dos boletos.</p>
+      </div>
+
+      <div class="">
+        <h3>Mensagens</h3>
+        <p>Envie mensagens, solicitações de forma prática e rápida .</p>
+      </div>
+
+      <div class="">
+        <h3>Notícias</h3>
+        <p>Fique por dentro de tudo o que acontece no condomínio.</p>
+      </div>
+   
+  </section>
